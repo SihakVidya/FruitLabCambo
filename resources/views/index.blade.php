@@ -34,7 +34,7 @@
     <div class="brand_box">
     <a class="navbar-brand" href="{{url('/index')}}">
         <span>
-          FruitLabCambo
+          Test
         </span>
       </a>
     </div>
