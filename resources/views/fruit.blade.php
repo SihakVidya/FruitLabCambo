@@ -32,9 +32,9 @@
   <div class="hero_area">
     <!-- header section strats -->
     <div class="brand_box">
-      <a class="navbar-brand" href="index.html">
+    <a class="navbar-brand" href="{{url('/index')}}">
         <span>
-          Ninom
+          FruitLabCambo
         </span>
       </a>
     </div>
@@ -53,21 +53,21 @@
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <div class="d-flex  flex-column flex-lg-row align-items-center">
-              <ul class="navbar-nav  ">
+            <ul class="navbar-nav  ">
                 <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="{{url('/index')}}">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="about.html">About </a>
+                  <a class="nav-link" href="{{url('about')}}">About </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="fruit.html">Our Fruit </a>
+                  <a class="nav-link" href="{{url('fruit')}}">Our Fruit </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="testimonial.html">Testimonial</a>
+                  <a class="nav-link" href="{{url('testimonial')}}">Testimonial</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact Us</a>
+                  <a class="nav-link" href="{{url('contact')}}">Contact Us</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">Login</a>

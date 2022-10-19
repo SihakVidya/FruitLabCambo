@@ -32,9 +32,9 @@
   <div class="hero_area">
     <!-- header section strats -->
     <div class="brand_box">
-      <a class="navbar-brand" href="index.html">
+    <a class="navbar-brand" href="{{url('/index')}}">
         <span>
-          Ninom
+          FruitLabCambo
         </span>
       </a>
     </div>
