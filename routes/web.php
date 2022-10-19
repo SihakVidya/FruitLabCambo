@@ -16,3 +16,27 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 });
+Route::get('about.html', function () {
+    return view('about');
+});
+Route::get('contact.html', function () {
+    return view('contact');
+});
+Route::get('index.html', function () {
+    return view('index');
+});
+Route::get('fruit.html', function () {
+    return view('fruit');
+});
+Route::get('testimonial.html', function () {
+    return view('testimonial');
+});
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::prefix('admin')->group(function () { 
+   
+    Route::get('/dashboard',[App\Http\Controllers\Admin\DashboardController::class,'index']);
+});
